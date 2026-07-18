@@ -1,0 +1,15 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: Lead with the amount owed and the pay-by date
+text: 'The page opens with how much is owed and the date to pay by — £318.60 by 1 August
+  2026 — before any background about how arrears build up.'
+links:
+- target: UR-0001
+  type: implements
+- target: "plain:SR-0004"
+  type: satisfies
+- target: "medium:SR-0001"
+  type: satisfies
+- target: "medium:SR-0004"
+  type: satisfies

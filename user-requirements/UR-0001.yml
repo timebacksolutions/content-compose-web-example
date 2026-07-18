@@ -1,0 +1,9 @@
+uid: UR-0001
+type: user_requirement
+status: approved
+title: Publish a rent-arrears web page a tenant can read and act on
+text: 'Publish a page that a tenant can skim, understand and use to pay what they owe or
+  get help in time, written to the council house style and shaped for the web.'
+links:
+- target: INT-0001
+  type: derives_from
