@@ -1,7 +1,7 @@
 # content-compose-web-example
 
 A worked example of a **composed content project** built with
-[throughline-compose](https://github.com/timebacksolutions/throughline-compose), and the
+[throughline-compose](https://github.com/rhodium-org/throughline-compose), and the
 **web member** of the medium-swap trio alongside
 [content-compose-letter-example](https://github.com/timebacksolutions/content-compose-letter-example)
 and
@@ -15,12 +15,12 @@ email. Hold the message and five axes fixed; swap only the channel.
 
 | Namespace | Source | Axis | Same as the letter and email? |
 |---|---|---|---|
-| `plain` | [throughline-plain-language](https://github.com/timebacksolutions/throughline-plain-language) `@v2026-07` | readability | ✅ identical |
-| `conventions` | [throughline-conventions-uk](https://github.com/timebacksolutions/throughline-conventions-uk) `@v2026-07` | British-English conventions | ✅ identical |
-| `tone` | [throughline-tone-formal](https://github.com/timebacksolutions/throughline-tone-formal) `@v2026-07` | register (formal) | ✅ identical |
-| `purpose` | [throughline-purpose-instruct](https://github.com/timebacksolutions/throughline-purpose-instruct) `@v2026-07` | purpose (instruct) | ✅ identical |
-| `audience` | [throughline-audience-general](https://github.com/timebacksolutions/throughline-audience-general) `@v2026-07` | audience (general reader) | ✅ identical |
-| `medium` | [throughline-medium-web](https://github.com/timebacksolutions/throughline-medium-web) `@v2026-07` | medium (**web**) | ❌ **letter/email → web** |
+| `plain` | [throughline-plain-language](https://github.com/rhodium-org/throughline-plain-language) `@v2026-07` | readability | ✅ identical |
+| `conventions` | [throughline-conventions-uk](https://github.com/rhodium-org/throughline-conventions-uk) `@v2026-07` | British-English conventions | ✅ identical |
+| `tone` | [throughline-tone-formal](https://github.com/rhodium-org/throughline-tone-formal) `@v2026-07` | register (formal) | ✅ identical |
+| `purpose` | [throughline-purpose-instruct](https://github.com/rhodium-org/throughline-purpose-instruct) `@v2026-07` | purpose (instruct) | ✅ identical |
+| `audience` | [throughline-audience-general](https://github.com/rhodium-org/throughline-audience-general) `@v2026-07` | audience (general reader) | ✅ identical |
+| `medium` | [throughline-medium-web](https://github.com/rhodium-org/throughline-medium-web) `@v2026-07` | medium (**web**) | ❌ **letter/email → web** |
 
 ## The one axis that changed
 
