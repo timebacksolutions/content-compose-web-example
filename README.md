@@ -1,7 +1,7 @@
 # content-compose-web-example
 
 A worked example of a **composed content project** built with
-[throughline-compose](https://github.com/rhodium-org/throughline-compose), and the
+[throughline](https://pypi.org/project/throughline/) 3.11.0 or later, and the
 **web member** of the medium-swap trio alongside
 [content-compose-letter-example](https://github.com/timebacksolutions/content-compose-letter-example)
 and
@@ -63,10 +63,11 @@ date style (£318.60, 1 August 2026), and the uncontracted formal register throu
 ## Running it
 
 ```sh
-tl-compose check --strict     # fetches all six pinned sources, merges, validates
-tl-compose trace SR-0001      # show the lead requirement across the plain and medium axes
+pip install 'throughline>=3.11.0'
+tl check --strict   # fetches all six pinned sources, merges, validates
+tl trace SR-0001    # show the lead requirement across the plain and medium axes
 ```
 
-Drive this project with `tl-compose`, never bare `tl`: bare `tl` fails fast the moment it
-meets a namespace-qualified reference (`medium:SR-0008`) it cannot resolve, because only
-the composition-aware tool fetches and merges the sources.
+`tl` composes the declared sources itself, so `check`, `trace` and the other reads answer
+over the union and a namespace-qualified reference (`medium:SR-0008`) resolves. A `tl` older
+than 3.11.0 reports it as `namespace-unresolved`.
