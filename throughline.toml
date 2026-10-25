@@ -1,6 +1,6 @@
 [project]
 name = "Rent-arrears web page (content-compose example)"
-format_version = 3
+format_version = 4
 
 # The web member of the medium-swap trio. content-compose-letter-example carries a
 # council rent-arrears message as a POSTED LETTER and content-compose-email-example
